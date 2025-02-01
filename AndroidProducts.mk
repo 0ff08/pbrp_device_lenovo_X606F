@@ -17,4 +17,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ofox_X606F.mk
+    $(LOCAL_DIR)/pb_X606F.mk
+COMMON_LUNCH_CHOICES := \
+    pb_x606f-eng

@@ -31,7 +31,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier.
-PRODUCT_NAME := ofox_$(PRODUCT_RELEASE_NAME)
+PRODUCT_NAME := pb_$(PRODUCT_RELEASE_NAME)
 PRODUCT_DEVICE := $(PRODUCT_RELEASE_NAME)
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo TB-X606F
